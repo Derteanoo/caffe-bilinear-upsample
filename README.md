@@ -16,3 +16,8 @@
      sys.path.pop('/opt/caffe/python/')                                                                                       
      sys.path.append('/workspace/caffe-bilinear-upsample/python/')                                                             
 6 import caffe                                                                                                                
+
+
+
+/home/mshmoon/PytorchToCaffe/a.jpg
+/home/mshmoon/PytorchToCaffe/testimg.jpg
