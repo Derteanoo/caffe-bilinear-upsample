@@ -18,10 +18,10 @@
 4.打开python交互式环境  
 
 5.import  sys                                                                                                                 
-   1.sys.path                                                                                                                 
-   2.sys.path.pop('/root/caffe/python/')                                                                                      
-   3.sys.path.pop('/opt/caffe/python/')                                                                                       
-   4.sys.path.append('/workspace/caffe-bilinear-upsample/python/')   
+   1)sys.path                                                                                                                 
+   2)sys.path.pop('/root/caffe/python/')                                                                                      
+   3)sys.path.pop('/opt/caffe/python/')                                                                                       
+   4)sys.path.append('/workspace/caffe-bilinear-upsample/python/')   
    
 6 import caffe                                                                                                                
 
