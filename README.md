@@ -19,5 +19,3 @@
 
 
 
-/home/mshmoon/PytorchToCaffe/a.jpg
-/home/mshmoon/PytorchToCaffe/testimg.jpg
