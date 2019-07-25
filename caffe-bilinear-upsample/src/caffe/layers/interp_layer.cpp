@@ -48,8 +48,10 @@ void InterpLayer<Dtype>::Reshape(const vector<Blob<Dtype>*>& bottom,
     const int zoom_factor = interp_param.zoom_factor();
     CHECK_GE(shrink_factor, 1) << "Shrink factor must be positive";
     CHECK_GE(zoom_factor, 1) << "Zoom factor must be positive";
-    height_out_ = (height_in_eff_ - 1) / shrink_factor + 1;
-    width_out_ = (width_in_eff_ - 1) / shrink_factor + 1;
+   //此处为自行修改代码
+    height_out_ = (height_in_eff_ ) / shrink_factor + 1;
+    width_out_ = (width_in_eff_ ) / shrink_factor + 1;
+   //以上为自行修改代码 
     height_out_ = height_out_ + (height_out_ - 1) * (zoom_factor - 1);
     width_out_ = width_out_ + (width_out_ - 1) * (zoom_factor - 1);
   } else {
